@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hristina — salon venčanica</title>
+<meta name="description" content="Hristina salon venčanica, Dositejeva 8, Sremska Mitrovica.">
+<style>
+:root{--ink:#171717;--soft:#f7f5f2;--paper:#fff;--line:#e7e1db;--muted:#6d6862;--max:1180px}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.55}
+a{color:inherit}.wrap{max-width:var(--max);margin:auto;padding:0 22px}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand img{height:52px;width:auto;display:block}
+.navlinks{display:flex;align-items:center;gap:20px;font:14px Arial,sans-serif}
+.navlinks a{text-decoration:none}.navlinks a:hover{text-decoration:underline}
+.cta{background:var(--ink);color:#fff!important;padding:11px 16px;border-radius:999px}
+.hero{background:var(--soft)}
+.hero-grid{min-height:78vh;display:grid;grid-template-columns:1.04fr .96fr;gap:56px;align-items:center;padding:68px 0}
+.eyebrow{font:12px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(48px,7vw,86px);line-height:.97;font-weight:500;margin:14px 0 18px}
+.lead{font-size:20px;max-width:620px;color:#3d3935}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:13px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--ink)}
+.btn.dark{background:var(--ink);color:#fff}
+.hero-photo{width:100%;aspect-ratio:3/4;object-fit:cover;box-shadow:0 26px 70px rgba(0,0,0,.12)}
+section{padding:92px 0}.section-kicker{font:12px Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+h2{font-size:clamp(36px,5vw,58px);line-height:1.05;font-weight:500;margin:10px 0 18px}
+.intro{max-width:760px;font-size:18px}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.gallery-card{padding:0;border:0;background:#fff;text-align:left;cursor:pointer}
+.gallery-card img{display:block;width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform .25s}
+.gallery-card:hover img{transform:scale(1.015)}
+.gallery-card span{display:block;padding:9px 2px 0;font:12px Arial,sans-serif;color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+.salon-photo{width:100%;max-height:680px;object-fit:cover}.info{background:var(--soft);padding:32px}
+.socials{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.social{border:1px solid var(--line);padding:10px 14px;border-radius:999px;text-decoration:none;font:13px Arial,sans-serif;background:#fff}
+footer{border-top:1px solid var(--line);padding:28px 0 44px;font:13px Arial,sans-serif;color:var(--muted)}
+.lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.87);z-index:50;padding:24px}
+.lightbox.open{display:flex}.lightbox img{max-width:95vw;max-height:90vh;object-fit:contain}.close{position:absolute;right:18px;top:8px;border:0;background:none;color:#fff;font-size:42px;cursor:pointer}
+@media(max-width:900px){.hero-grid,.split{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){nav{min-height:68px}.brand img{height:42px;max-width:190px;object-fit:contain}.navlinks a:not(.cta){display:none}.hero-grid{padding:44px 0 60px}section{padding:68px 0}.gallery{gap:10px}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap"><nav>
+<a class="brand" href="#pocetna"><img src="logo.png" alt="Hristina salon venčanica"></a>
+<div class="navlinks">
+<a href="#kolekcija">Kolekcija</a><a href="#salon">Salon</a><a href="#kontakt">Kontakt</a>
+<a class="cta" href="tel:+381614886411">Pozovi salon</a>
+</div>
+</nav></div>
+</header>
+
+<main id="pocetna">
+<section class="hero">
+<div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Hristina · salon venčanica</div>
+<h1>Haljina koju pamtiš.</h1>
+<p class="lead">Pažljivo birani modeli, elegantni detalji i prostor u kojem možeš da pronađeš venčanicu u kojoj se osećaš kao ti.</p>
+<div class="hero-actions">
+<a class="btn dark" href="#kolekcija">Pogledaj kolekciju</a>
+<a class="btn" href="tel:+381614886411">Zakaži termin</a>
+</div>
+<p style="margin-top:22px;color:var(--muted);font:13px Arial,sans-serif">Dositejeva 8 · Sremska Mitrovica</p>
+</div>
+<img class="hero-photo" src="hero.jpg" alt="Venčanica u salonu Hristina">
+</div>
+</section>
+
+<section id="kolekcija">
+<div class="wrap">
+<div class="section-kicker">Kolekcija</div>
+<h2>Čipka. Sjaj. Siluete koje ostaju.</h2>
+<p class="intro">Pogledaj modele i atmosferu salona. Klikni na fotografiju za veći prikaz.</p>
+<div class="gallery"><button class="gallery-card" type="button" data-full="salon-izlog.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="salon-izlog.jpg" alt="Salon Hristina — izlog"><span>Salon Hristina — izlog</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-01.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-01.jpg" alt="Venčanica — detalji čipke"><span>Venčanica — detalji čipke</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-02.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-02.jpg" alt="Venčanica — čipkana silueta"><span>Venčanica — čipkana silueta</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-03.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-03.jpg" alt="Venčanica — aplikacije i detalji"><span>Venčanica — aplikacije i detalji</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-04.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-04.jpg" alt="Venčanica — raskošan kroj"><span>Venčanica — raskošan kroj</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-05.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-05.jpg" alt="Venčanica — elegantan model"><span>Venčanica — elegantan model</span></button>
+<button class="gallery-card" type="button" data-full="vencanica-06.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="vencanica-06.jpg" alt="Venčanica — pogled s leđa"><span>Venčanica — pogled s leđa</span></button>
+<button class="gallery-card" type="button" data-full="salon-enterijer.jpg" aria-label="Otvori fotografiju"><img loading="lazy" src="salon-enterijer.jpg" alt="Salon Hristina — enterijer"><span>Salon Hristina — enterijer</span></button></div>
+</div>
+</section>
+
+<section id="salon" style="background:var(--soft)">
+<div class="wrap split">
+<img class="salon-photo" src="salon-enterijer.jpg" alt="Enterijer salona Hristina">
+<div>
+<div class="section-kicker">Salon Hristina</div>
+<h2>Prostor napravljen za tvoj trenutak.</h2>
+<p class="intro">Dođi da vidiš modele uživo, isprobaš krojeve i zajedno pronađemo ono što ti najbolje stoji.</p>
+<div class="info" style="margin-top:28px">
+<p><strong>Adresa</strong><br>Dositejeva 8, Sremska Mitrovica</p>
+<p><strong>Telefon</strong><br><a href="tel:+381614886411">061 / 488 64 11</a></p>
+<div class="socials">
+<a class="social" href="https://www.instagram.com/vencanice_hristina/" target="_blank" rel="noopener">Instagram</a>
+<a class="social" href="https://www.tiktok.com/@vencanice_hristina" target="_blank" rel="noopener">TikTok</a>
+<a class="social" href="https://www.google.com/maps/search/?api=1&query=Dositejeva+8,+Sremska+Mitrovica" target="_blank" rel="noopener">Google Maps</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="kontakt">
+<div class="wrap">
+<div class="section-kicker">Kontakt</div>
+<h2>Zakaži termin.</h2>
+<p class="intro">Pozovi salon i dogovori termin za probu venčanica.</p>
+<div class="hero-actions">
+<a class="btn dark" href="tel:+381614886411">061 / 488 64 11</a>
+<a class="btn" href="https://www.instagram.com/vencanice_hristina/" target="_blank" rel="noopener">Instagram</a>
+<a class="btn" href="https://www.tiktok.com/@vencanice_hristina" target="_blank" rel="noopener">TikTok</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© Hristina salon venčanica · Sremska Mitrovica</div></footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+<button class="close" type="button" aria-label="Zatvori">×</button>
+<img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+const box=document.getElementById('lightbox');
+const lbImg=document.getElementById('lightboxImg');
+document.querySelectorAll('.gallery-card').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    lbImg.src=btn.dataset.full;
+    box.classList.add('open');
+    box.setAttribute('aria-hidden','false');
+  });
+});
+function closeBox(){box.classList.remove('open');box.setAttribute('aria-hidden','true');lbImg.src='';}
+document.querySelector('.close').addEventListener('click',closeBox);
+box.addEventListener('click',e=>{if(e.target===box)closeBox();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeBox();});
+</script>
+</body>
+</html>
